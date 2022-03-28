@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 13, 2015, 12:36:05 PM
+    Author     : java2
+*/
+
+body{
+
+}
+#main{
+    width: 1346px;
+    height: 625px;
+    border-radius: 20px;
+    background-image: url('../images/background.jpg'); 
+}
+#header{
+    border: 1px solid red;
+    width: 1346px;
+    height: 130px;
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*Menu Start*/
+#menu ul {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height:normal;
+}
+
+#menu li {
+    display: block;
+}
+
+#menu a {
+    color: white;
+    display: block;
+    float: left;
+    height: 26px;
+    padding: 14px 18px 0 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#menu .first a {
+    padding: 14px 12px 15px 300px;
+    background: none;
+}
+/*Menu End*/
+#container{
+    width: 1346px;
+    height: 425px;
+}
+#footer{
+    width: 1346px;
+    height: 40px;
+}
+.textbox{
+    width: 200px;
+    height: 18px;
+}
