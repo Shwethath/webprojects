@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(background6.jpg);
+  background-size: contain;
+background-position: top;
+background-repeat: repeat;
+height: 100vh;
+font-family: century gothic;
+}
+#container
+{
+ background-position: center;
+}
+#heading
+	{
+		margin-bottom:20px;
+		border-bottom:1px solid #ADADAD;
+	}
+#wel
+	{
+		font-size:18px;
+	}
+#bill_form
+	{
+		float: left;
+		width:100%;
+		border:1px solid #0000ff;
+	}
+#btn
+	{
+		border-collapse:collapse;
+		border:2px solid #0000ff;
+	}
+#btn th
+	{
+		background-color:#0000ff;
+		color:WHITE;
+		font-size:20px;
+	}
+select
+	{
+		width:100%;
+	}
+#label
+	{
+		background-color:#ccffff;
+	}
