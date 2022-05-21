@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.jumbotron{
+  width:100%;
+  height: 300px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.jumbotron .row .btn1{
+   background: #fff;
+   border: #fff solid;
+}
+.jumbotron h3{
+  margin: 30px 400px auto;
+  margin-bottom: 20px;
+  width: 600px;
+  font-size: 24px;
+  padding-right: 50px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+.jumbotron .margin{
+  padding: 20px;
+  margin-left: 280px;
+}
+.jumbotron .row .space{
+  padding: 0 20px 0 100px;
+  margin: 20px 100px 0px 0px;
+  font-family: 'Poppins', sans-serif;
+}
+.jumbotron .row .select{
+  padding: 5px 0 10px;
+  margin-left: 150px;
+} 
+.jumbotron .row .form-outline .fas{
+  padding: 5px;
+}
+.jumbotron .row .input-group{
+  margin-left: -60px;
+}
+.jumbotron .row .form-outline{
+  padding-right: 100px;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.jumbotron .row .form-outline input{
+  padding-right: 100px;
+}
+.container .row .space{
+  font-size: 12px;
+  margin-left: 20px;
+}
+.container .row h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.container .row .d-flex{
+  padding: 20px;
+  margin: 10px;
+}
+.container .search{
+  margin-left: 100px;
+  margin-top: -20px;
+  font-size: 14px;
+}
+.container .search h3{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.container .margin .d-flex{
+  margin-top: -20px;
+}
+.container .row .space h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}

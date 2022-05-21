@@ -1,0 +1,219 @@
+
+
+
+/* Please use internet to see the changes in font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+   
+   width: 100%;
+   z-index: 999;
+   padding: 20px 0;
+   transition: all 0.3s ease;
+   background: crimson;
+   height: 20px;
+ }
+.navbar .logo{
+   background: fixed;
+   background-color: #fff;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin-top: -15px;
+   margin-left: 50px;
+
+} 
+ .logo img{
+   background-repeat: no-repeat;
+   height:50px;
+   width:50px;
+ }
+ 
+ .navbar .max-width{
+ display: flex;
+ align-items: center;
+ justify-content:  space-between;
+ max-width: 1300px;
+ padding: 0 80px;
+ margin: auto;
+ }
+ 
+.login{
+color:#fff;
+text-decoration: none;
+margin-right: 5px;
+font-family: 'Poppins', sans-serif;
+}
+.menu-btn{
+padding: 5px;
+margin-left: 5px;
+color: #fff;
+background-color: crimson;
+border: 1px solid #fff;
+}
+
+.menu .menu-btn:hover{
+background: #fff;
+color: crimson;
+}
+.login:hover{
+color: blue;
+}
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  margin: 30px 130px;
+  
+}
+.filters p{
+  font-size: 14px;
+}
+.inline-block .pdiv1{
+  float: left;
+  margin-left: 130px;
+}
+.inline-block .pdiv2,
+.inline-block .pdiv3{
+  display:inline-block;
+  margin-left: 50px;
+}
+
+.pdiv1{
+     margin-left: 10px;
+     display: inline-block;
+     font-family: 'Poppins', sans-serif;
+     border: 2px solid gainsboro; 
+     background-color: #fff;
+     font-size: 12px;
+     padding: 20px;
+     height: 550px;
+     width: 200px; 
+     box-sizing: border-box;      
+}
+.pdiv2{
+  border: 2px solid gainsboro;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  font-size: 12px;
+  height: 150px;
+  width: 600px;
+  padding: 20px 20px 20px 20px;
+  
+}
+.pdiv3{
+  border: 2px solid gainsboro;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  font-size: 12px;
+  height: 150px;
+  width: 600px;
+  margin-top: 50px;
+  padding: 20px 20px 20px 20px;
+  
+}
+.filters h3, p,
+.cuisine h3, input,
+.cost h3, input,
+.sort h3, input{
+  margin-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
+    }
+
+  #location{
+    background:rgb(245, 247, 249);
+    padding: 6px;
+    border-width: 1px;
+    padding-right: 35px;
+    margin-bottom: 5px;
+  }
+  #location:hover{
+    background: #fff;
+    cursor: pointer;
+  }
+ /* pdiv2 */ 
+ .inline-block .pdiv2 .img{
+   display: block;
+   height: 50px;
+   width: 70px;
+   border-radius: 10px;
+   display: block;
+   float :left;
+   margin-top: 5px;
+ }
+ 
+ .inline-block .pdiv3 .img{
+   width: 50px;
+   height: 60px;
+   border-radius: 10px;
+   display: block;
+   float: left;
+   margin-top: 5px;
+ }
+  .inline-block .pdiv2 .food-bake1,
+  .inline-block .pdiv3 .food-bake2{
+    margin-left: 120px;
+    font-size: 18px;
+    margin-top: -10px;
+  }
+  .inline-block .pdiv2 h4,
+  .inline-block .pdiv3 h4{
+    font-size: 14px;
+    margin-top: 5px;
+  } 
+  .inline-block .pdiv2 p,
+  .inline-block .pdiv3 p{
+    font-size:  12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  } 
+
+  .inline-block .pdiv2 .list .cuisines,
+  .inline-block .pdiv3 .list .cuisines{
+      float: left;
+      display: block;
+      padding: 0px 5px;
+      margin-right: 30px;
+  }
+  .inline-block .pdiv2 .list .bakery,
+  .inline-block .pdiv3 .list .bakery{
+    display: block;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    margin-left: 100px;
+  }
+
+  /* slide buttons*/
+
+  .slide .i-b a{
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+
+  .slide .i-b{
+    background: rgb(246, 242, 246);
+    border: 1px solid gray;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px 5px;
+  }
+  .slide .i-b:hover{
+    background: rgb(195, 191, 191);
+    cursor: pointer;
+  }
+  .slide{
+  height: 50px;
+  width: 700px;
+  margin-left: 300px;
+  padding: 20px 20px;
+  text-align: center; 
+  }
